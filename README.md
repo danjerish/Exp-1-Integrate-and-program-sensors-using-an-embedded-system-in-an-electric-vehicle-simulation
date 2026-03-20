@@ -35,6 +35,7 @@ To integrate and program temperature and accelerometer sensors in an embedded sy
 •	Print the final temperature and acceleration values.
  
 ## MATLAB CODE 
+```
 clear; clc; close all;  
   
 %% Simulation Parameters  
@@ -65,7 +66,8 @@ grid on;
 %% Display Key Data in Console  
 fprintf('Simulated Data at Final Time (t=10s):\n');  
 fprintf('Battery Temperature: %.2f°C\n', battery_temp(end));  
-fprintf('Acceleration (X, Y, Z): %.2f, %.2f, %.2f m/s^2\n', accX(end), accY(end), accZ(end));  
+fprintf('Acceleration (X, Y, Z): %.2f, %.2f, %.2f m/s^2\n', accX(end), accY(end), accZ(end));
+```  
 
 
 
